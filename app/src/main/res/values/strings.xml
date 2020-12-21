@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">HelloYeen</string>
+    <string name="iter_mobile_api_key">695a830ea9a840a0b868f9386ac38382</string>
+    <string name="iter_web_api_key">6e40f94c85164efba94c199c82560274</string>
+    <string name="userProfButton">MY ACCOUNT</string>
+    <string name="settingsButton">SETTINGS</string>
+    <string name="coffeeButton">COFFEE</string>
+    <string name="iterInboxButton">MobileInbox</string>
+    <string name="org_name">HYENASPAM</string>
+    <string name="signup_button">Sign-Up/Log-In</string>
+    <string name="email_hint">kingyeen@hyenaspam.com</string>
+</resources>

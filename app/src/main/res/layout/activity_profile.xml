@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/profileConstraintView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/hyenaLight"
+    tools:context=".ProfileActivity">
+
+    <EditText
+        android:id="@+id/coffeeEditText"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="73dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="38dp"
+        android:ems="10"
+        android:hint="Mocha"
+        android:inputType="text"
+        android:textColor="@color/hyenaDark"
+        android:textColorHint="@color/hyenaAccent"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/phoneEditText" />
+
+    <EditText
+        android:id="@+id/phoneEditText"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="73dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="38dp"
+        android:ems="10"
+        android:hint="415-666-2020"
+        android:inputType="phone"
+        android:textColor="@color/hyenaDark"
+        android:textColorHint="@color/hyenaAccent"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/roleEditText" />
+
+    <EditText
+        android:id="@+id/roleEditText"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="73dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="38dp"
+        android:ems="10"
+        android:hint="King of the Yeens"
+        android:inputType="textPersonName"
+        android:textColor="@color/hyenaDark"
+        android:textColorHint="@color/hyenaAccent"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lastNameEditText" />
+
+    <EditText
+        android:id="@+id/lastNameEditText"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="73dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="38dp"
+        android:ems="10"
+        android:hint="Maximus"
+        android:inputType="textPersonName"
+        android:textColor="@color/hyenaDark"
+        android:textColorHint="@color/hyenaAccent"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/firstNameEditText" />
+
+    <EditText
+        android:id="@+id/emailEditText"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="73dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="38dp"
+        android:ems="10"
+        android:hint="yeen@hyenaspam.com"
+        android:inputType="textEmailAddress"
+        android:textColor="@color/hyenaDark"
+        android:textColorHint="@color/hyenaAccent"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/firstNameEditText"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="73dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="38dp"
+        android:ems="10"
+        android:hint="Haida"
+        android:inputType="textPersonName"
+        android:textColor="@color/hyenaDark"
+        android:textColorHint="@color/hyenaAccent"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/emailEditText" />
+
+    <Button
+        android:id="@+id/enableEditButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="162dp"
+        android:layout_marginTop="528dp"
+        android:layout_marginEnd="161dp"
+        android:background="@color/hyenaDark"
+        android:text="EDIT"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/emailTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="EMAIL"
+        android:textColor="@color/hyenaDark"
+        app:layout_constraintBottom_toBottomOf="@+id/emailEditText"
+        app:layout_constraintEnd_toStartOf="@+id/emailEditText" />
+
+    <TextView
+        android:id="@+id/firstNameTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="1dp"
+        android:text="FIRST"
+        android:textColor="@color/hyenaDark"
+        app:layout_constraintBottom_toBottomOf="@+id/firstNameEditText"
+        app:layout_constraintEnd_toStartOf="@+id/firstNameEditText" />
+
+    <TextView
+        android:id="@+id/lastNameTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="1dp"
+        android:text="LAST"
+        android:textColor="@color/hyenaDark"
+        app:layout_constraintBottom_toBottomOf="@+id/lastNameEditText"
+        app:layout_constraintEnd_toStartOf="@+id/lastNameEditText" />
+
+    <TextView
+        android:id="@+id/roleTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="1dp"
+        android:text="ROLE"
+        android:textColor="@color/hyenaDark"
+        app:layout_constraintBottom_toBottomOf="@+id/roleEditText"
+        app:layout_constraintEnd_toStartOf="@+id/roleEditText" />
+
+    <TextView
+        android:id="@+id/phoneTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PHONE"
+        android:textColor="@color/hyenaDark"
+        app:layout_constraintBottom_toBottomOf="@+id/phoneEditText"
+        app:layout_constraintEnd_toStartOf="@+id/phoneEditText" />
+
+    <TextView
+        android:id="@+id/coffeeTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="1dp"
+        android:text="COFFEE"
+        android:textColor="@color/hyenaDark"
+        app:layout_constraintBottom_toBottomOf="@+id/coffeeEditText"
+        app:layout_constraintEnd_toStartOf="@+id/coffeeEditText" />
+
+    <Button
+        android:id="@+id/logoutButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:background="#F44336"
+        android:text="LOGOUT"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/enableEditButton" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
